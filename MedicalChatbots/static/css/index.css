@@ -1,0 +1,141 @@
+#app {
+    width: 98%;
+    height: 95%;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 1px #999
+}
+
+.center {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.top {
+    width: 100%;
+    height: 92%;
+    margin-bottom: 1%;
+    overflow-y: scroll;
+}
+
+.bottom {
+    box-sizing: border-box;
+    width: 100%;
+    height: 4%;
+}
+
+.simple {
+    height: 100%;
+    float: left;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 78%;
+    outline: none;
+    text-indent: 1%;
+    vertical-align: bottom;
+}
+
+input:focus{
+    border-style:solid;
+    border-color: #18a058;
+    box-shadow: 0 0 2px #18a058;
+}
+
+.fasong {
+    height: 100%;
+    cursor: pointer;
+}
+
+.right {
+    width: 100%;
+}
+
+.top .user {
+    box-sizing: border-box;
+    width: 70%;
+    float: right;
+    padding-top: 1%;
+}
+
+.right:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+
+.top .user img {
+    width: 3%;
+    border-radius: 18px;
+    vertical-align: bottom;
+    float: right;
+}
+
+.top .user span {
+    color: #b4bbc4;
+    float: right;
+}
+
+.user:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+
+.top .user p {
+    box-sizing: border-box;
+    padding: 2%;
+    border-radius: 7px;
+    width: 100%;
+    margin-right: 4%;
+    float: right;
+    background-color: #d2f9d1;
+}
+
+
+
+.left {
+    width: 100%;
+}
+
+.top .web {
+    box-sizing: border-box;
+    width: 70%;
+    padding-top: 1%;
+}
+
+.left:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+
+.top .web img {
+    width: 3%;
+    border-radius: 18px;
+    vertical-align: bottom;
+}
+
+.top .web span {
+    color: #b4bbc4;
+}
+
+.top .web p {
+    box-sizing: border-box;
+    padding: 2%;
+    width: 100%;
+    background-color: #f4f6f8;
+    border-radius: 7px;
+    margin-left: 4%;
+}
