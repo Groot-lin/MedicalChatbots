@@ -2,7 +2,7 @@
 
 本项目是一个基于Neo4j图数据库的医疗知识图谱智能问答机器人
 
-在刘焕勇老师(https://liuhuanyong.github.io)的项目做的重构与增强
+在[刘焕勇老师](https://liuhuanyong.github.io)的项目做的重构与增强
 
 问答分为两个模块
 
