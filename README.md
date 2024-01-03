@@ -20,6 +20,7 @@
 ## 二.项目启动
 
 1. 环境要求,neo4j数据库,python3,pycharm
+
 2. 打开build_medicalgraph.py文件
 
 修改信息包括neo4j数据库的ip地址,端口号,用户名和密码
@@ -30,7 +31,9 @@
 
 修改main函数中的端口号
 
-4. 打开static下的index.html文件并打开右上角浏览器即可使用
+4. 修改static目录下的index.html的第67行和95行,ip和端口改成与main.py中的一致
+
+5. 打开static下的index.html文件并打开右上角浏览器即可使用
 
 
 
